@@ -1,8 +1,7 @@
-<section class="d-flex justify-content-center align-items-center p-2">
-    <h1>Sonia Bougamha</h1>
-    <br />
-    <strong>Développeuse intégratrice WEB junior</strong>
-</section>
+<div id="wrapper">
+  <h1 class="chrome">Développeuse intégratrice WEB</h1>
+  <h3 class="dreams">Sonia Bougamha</h3>
+</div>
 
 <section>
     <h2>Réalisations</h2>

@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="keywords" lang="fr" content="cv portfolio sonia-bougamha php html css developpeur integrateur bootstrap fontawesome"><!--Mots clefs pour le site (référencement)-->
         <meta name="author" content="Sonia Bougamha">
@@ -24,9 +24,6 @@
 		
 		<!-- CSS FANCYBOX -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
-
-		<!-- CSS -->
-		<link rel="stylesheet" href="public/css/style.css">
 		
 		<!-- FONTAWESOME -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -34,14 +31,27 @@
 		<!-- BOOTSTRAP -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+        <!-- BLK DESIGN SYSTEM extend BOOTSTRAP -->
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet">
+        <!-- Theme CSS -->
+        <link type="text/css" href="/assets/css/blk-design-system.min.css" rel="stylesheet">
+
+        <!-- PERSONNAL CSS -->
+		<link rel="stylesheet" href="public/sass/style.css">
+
         <title>Site Portfolio</title>
     </head>
 
     <body>
 
         <header>
-            <nav>
-                <ul class="nav nav-pills nav-fill w-100 justify-content-evenly align-items-center">				
+            <nav class="navbar navbar-secondary bg-secondary d-flex justify-content-between">
+                <a class="navbar-brand" href="view/homepage.php">
+                    <img src="public/inc/img/logo.png" alt="" height="40">
+                </a>
+
+                <ul class="nav nav-pills nav-fill justify-content-evenly align-items-center">				
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">PORTFOLIO</a>
                     </li>
@@ -86,6 +96,14 @@
     	<!--script PERSO-->
 		<script src="public/js/script.js"></script>
 		
+        <!-- BLK DESIGN SYSTEM SCRIPTS -->
+        <!-- Core -->
+        <script src="/assets/vendor/jquery/jquery.min.js"></script>
+        <script src="/assets/vendor/popper/popper.min.js"></script>
+        <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+        <!-- Theme JS -->
+        <script src="/assets/js/blk-design-system.min.js"></script>
+
 		<!-- JQuery Library -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>

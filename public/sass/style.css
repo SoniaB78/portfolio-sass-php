@@ -1,1 +1,78 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+/* IMPORTS*/
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+/* FONTS*/
+@font-face {
+  font-family: Anurati-Regular;
+  src: url("../public/inc/fonts/anurati_font/Anurati-Regular.otf") format("truetype");
+}
+
+/* VARIABLES*/
+h1 {
+  font-family: "Anurati-Regular", Courier New, Courier, monospace;
+  height: 90px;
+}
+
+body {
+  background: #130b38;
+  color: #fff;
+  position: relative;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.chrome {
+  position: relative;
+  background-image: -webkit-linear-gradient(#f00888 0%, #ee4ea6 45%, #ee74b7 50%, #a16788 57%, #a8b3a9 58%, #dcfdd5 59%, #a6fa94 65%, #7afa5d 90%, #32FF04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 4px #5833a8;
+  font-size: 5rem;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  margin: 0;
+  line-height: 1;
+}
+
+.chrome:before {
+  content: 'Développeuse intégratrice WEB';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-image: -webkit-linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
+  background-position: -680px 0;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0;
+  padding-right: 300px;
+  -webkit-animation-name: chrome_effect;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.dreams {
+  position: absolute;
+  margin: 0px;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 4rem;
+  color: #9decdf;
+  transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  margin-left: 67%;
+  margin-top: -3%;
+  -webkit-text-stroke: 1px #27D4B6;
+  -webkit-filter: drop-shadow(2px 2px 20px #27D4B6);
+  z-index: 20;
+}
+
+.windows .dreams {
+  -webkit-text-stroke: 4px #27D4B6;
+}
+/*# sourceMappingURL=style.css.map */
