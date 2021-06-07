@@ -35,28 +35,24 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet">
         <!-- Theme CSS -->
-        <link type="text/css" href="/assets/css/blk-design-system.min.css" rel="stylesheet">
+        <link type="text/css" href="public/inc/blk-design-system-master/assets/css/blk-design-system.min.css" rel="stylesheet">
 
         <!-- PERSONNAL CSS -->
 		<link rel="stylesheet" href="public/sass/style.css">
 
-        <title>Site Portfolio</title>
+        <title>Sonia Bougamha Developpeuse Web</title>
     </head>
 
     <body>
-
         <header>
-            <nav class="navbar navbar-secondary bg-secondary d-flex justify-content-between">
+            <nav class="navbar d-flex justify-content-between px-5">
                 <a class="navbar-brand" href="view/homepage.php">
                     <img src="public/inc/img/logo.png" alt="" height="40">
                 </a>
 
                 <ul class="nav nav-pills nav-fill justify-content-evenly align-items-center">				
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">PORTFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">COMPETENCES</a>
+                        <a class="nav-link" href="#projects">PORTFOLIO/COMPETENCES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#experiences">PARCOURS</a>

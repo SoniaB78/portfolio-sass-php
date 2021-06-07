@@ -42,6 +42,7 @@
             <li><a href="https://twitter.com/soniabougamha/">Twitter</a></li>
             <li><a href="https://www.linkedin.com/in/sonia-bougamha-50697a171/">LinkedIn</a></li>
         </ul>
+        
         <h3>Envoyez moi un email</h3>
         <form>
             <div class="form-row">
@@ -68,7 +69,7 @@
 
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Bonjour ...."></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="TOP SECRET J'AI DIS !!"></textarea>
             </div>
         </form>
     </div>

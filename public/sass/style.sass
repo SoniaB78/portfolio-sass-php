@@ -7,32 +7,48 @@
     font-family: Anurati-Regular 
     src: url('../public/inc/fonts/anurati_font/Anurati-Regular.otf') format('truetype')
 
-/* VARIABLES*/
+/*_______________________________VARIABLES_______________________________*/
 //FONTS
 $main-font : "Anurati-Regular", Courier New, Courier, monospace
+
 // COLORS
+$bg-color : rgb(19, 11, 56)
 $primary-color : #f00888
 $primary-color-shade1 : #ee4ea6
 $primary-color-shade2 : #ee74b7
+
 $secondary-color : #8B02FF
 $secondary-color-shade1 : #a33ffb
 $secondary-color-shade2 : #c077ff
+
 $third-color: #27D4B6
 $third-color-shade1: #64dac6
 $third-color-shade2: #9decdf
+
 $fourth-color : #32FF04
 $fourth-color-shade1 : #7afa5d
 $fourth-color-shade2 : #a6fa94
+
 $warning-color : #BDEA15
-    
+
+// MARGIN
+
+// BUTTONS
+
+/*_______________________________ALL_DOCUMENT_______________________________*/  
+body 
+    background: $bg-color
+    color: #fff
+    position: relative
+    margin: 0
+
+/*_______________________________HEADER_______________________________*/  
+header    
+
+/*_______________________________H1_______________________________*/
 h1
     font-family: $main-font
     height: 90px
-
-body 
-    background: rgb(19, 11, 56)
-    color: #fff
-    position: relative
 
 .wrapper
   width: 50%
@@ -43,7 +59,7 @@ body
     background-image: -webkit-linear-gradient($primary-color 0%, $primary-color-shade1 45%, $primary-color-shade2 50%, #a16788 57%,#a8b3a9 58%,#dcfdd5 59%, $fourth-color-shade2 65%,$fourth-color-shade1  90%, $fourth-color 100%)
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
-    -webkit-text-stroke: 4px #5833a8
+    -webkit-text-stroke: 4px $secondary-color
     font-size: 5rem
     font-family: 'Titillium Web', sans-serif
     font-style: italic

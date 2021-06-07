@@ -8,16 +8,20 @@
   src: url("../public/inc/fonts/anurati_font/Anurati-Regular.otf") format("truetype");
 }
 
-/* VARIABLES*/
-h1 {
-  font-family: "Anurati-Regular", Courier New, Courier, monospace;
-  height: 90px;
-}
-
+/*_______________________________VARIABLES_______________________________*/
+/*_______________________________ALL_DOCUMENT_______________________________*/
 body {
   background: #130b38;
   color: #fff;
   position: relative;
+  margin: 0;
+}
+
+/*_______________________________HEADER_______________________________*/
+/*_______________________________H1_______________________________*/
+h1 {
+  font-family: "Anurati-Regular", Courier New, Courier, monospace;
+  height: 90px;
 }
 
 .wrapper {
@@ -30,7 +34,7 @@ body {
   background-image: -webkit-linear-gradient(#f00888 0%, #ee4ea6 45%, #ee74b7 50%, #a16788 57%, #a8b3a9 58%, #dcfdd5 59%, #a6fa94 65%, #7afa5d 90%, #32FF04 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 4px #5833a8;
+  -webkit-text-stroke: 4px #8B02FF;
   font-size: 5rem;
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
