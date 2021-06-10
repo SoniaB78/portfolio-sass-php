@@ -44,31 +44,32 @@
     </head>
 
     <body>
-        <header>
-            <nav class="navbar d-flex justify-content-between px-5">
+        <header class="fixed-top">
+
+            <nav class="navbar navbar px-5 bg-transparent">
                 <a class="navbar-brand" href="view/homepage.php">
-                    <img src="public/inc/img/logo.png" alt="" height="40">
+                    <img src="public/inc/img/logo-pas-ferme.png" alt="" height="100">
                 </a>
 
-                <ul class="nav nav-pills nav-fill justify-content-evenly align-items-center">				
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">PORTFOLIO/COMPETENCES</a>
+                <ul class="nav nav-tabs flex-column align-items-end">				
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link py-1 active" id="portfolio-tab" data-bs-toggle="tab" data-bs-target="#portfolio" type="button" role="tab" aria-controls="portfolio" aria-selected="true">PORTFOLIO</button>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experiences">PARCOURS</a>
+                    <li class="nav-item py-1" role="presentation">
+                        <button class="nav-link py-1 active" id="parcours-tab" data-bs-toggle="tab" data-bs-target="#parcours" type="button" role="tab" aria-controls="parcours" aria-selected="true">PARCOURS</button>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">CONTACT</a>
+                    <li class="nav-item py-1" role="presentation">
+                        <button class="nav-link py-1 active" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="true">CONTACT</button>
                     </li>
                 </ul>
             </nav>
         </header>
 
-        <main>
+        <main class="container tab-content">
             <?= $content ?>
         </main>
 
-        <footer class="d-flex justify-content-between align-items-center p-2">
+        <footer class=" d-flex justify-content-between align-items-center bg-primary px-5">
             <span class="">
                 <a href="public/inc/cv_sonia_bougamha.pdf" target="blank" title="voir/télécharger mon CV, 78KB, PDF"> <i class="fas fa-file-pdf"></i>CV</a>
             </span>
@@ -107,17 +108,11 @@
 
 		<!-- Fancy Box Core JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
-
 		<!-- Optionnel pour naviguer avec le scroll dans la fancybox -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.0.4/jquery.mousewheel.min.js"></script>
 
 		<!-- SCRIPT BOOTSTRAP-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-		<!-- script slick SLIDER-->
-		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
     </body>
 

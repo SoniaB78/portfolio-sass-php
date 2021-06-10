@@ -21,7 +21,7 @@ body {
 /*_______________________________H1_______________________________*/
 h1 {
   font-family: "Anurati-Regular", Courier New, Courier, monospace;
-  height: 90px;
+  height: 68px;
 }
 
 .wrapper {
@@ -35,7 +35,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 4px #8B02FF;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
   margin: 0;
@@ -64,13 +64,13 @@ h1 {
   position: absolute;
   margin: 0px;
   font-family: 'Mr Dafoe', cursive;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #9decdf;
   transform: rotate(-15deg);
   -ms-transform: rotate(-15deg);
   -webkit-transform: rotate(-15deg);
-  margin-left: 67%;
-  margin-top: -3%;
+  margin-left: 40%;
+  margin-top: -2%;
   -webkit-text-stroke: 1px #27D4B6;
   -webkit-filter: drop-shadow(2px 2px 20px #27D4B6);
   z-index: 20;
@@ -78,5 +78,10 @@ h1 {
 
 .windows .dreams {
   -webkit-text-stroke: 4px #27D4B6;
+}
+
+/*_______________________________MAIN_______________________________*/
+main {
+  margin: 5vh 10vh;
 }
 /*# sourceMappingURL=style.css.map */

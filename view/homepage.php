@@ -3,7 +3,7 @@
   <h3 class="dreams">Sonia Bougamha</h3>
 </div>
 
-<section>
+<section class="tab-pane active" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
     <h2>Réalisations</h2>
     <?php
     // $sql="SELECT * FROM competences";
@@ -16,12 +16,8 @@
     ?>
 </section>
 
-<section>
-    <h2>Compétences</h2>
 
-</section>
-
-<section>
+<section class="tab-pane active" id="parcours" role="tabpanel" aria-labelledby="parcours-tab">
     <h2>Parcours</h2>
 
 </section>
@@ -31,7 +27,7 @@
     
 </section>
 
-<section>
+<section class="tab-pane active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
     <h2>Contact</h2>
     <div class="form col-8">
         <h3>Infos</h3>
